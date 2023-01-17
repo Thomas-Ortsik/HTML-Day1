@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Intermediate Exercise: Registration Form</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <div>
+        <form action="">
+            <p>
+                <span><label for="fn"></label> Firstname:</span>
+                <span><input type="text" id="fn" value="John"></span>
+            </p>
+            <p>
+                <span><label for="ln"></label> Lastname:</span>
+                <span><input type="text" id="ln" value="Doe"></span>
+            </p>
+            <p>
+                <span><label for="course"></label> Course:</span> 
+                <span><select name="course" id="course">
+                    <option value="html">HTML</option>
+                </select> </span>
+            </p>
+            <p>
+                Gender: <br>
+                <input type="radio" id="male" value="Male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" value="Female">
+                <label for="female">Female</label>
+            </p>
+            <p>
+                Hobbies: <br>
+                <input type="checkbox" checked="true" name="hobbies1" id="hobbies1" value="Programming">
+                <label for="hobbies1">Programming</label><br>
+                <input type="checkbox" checked="true" name="hobbies2" id="hobbies2" value="Basketball">
+                <label for="hobbies2">Basketball</label><br>
+                <input type="checkbox" name="hobbies3" id="hobbies3" value="Football">
+                <label for="hobbies3">Football</label><br>
+                <input type="checkbox" name="hobbies4" id="hobbies4" value="Reading">
+                <label for="hobbies4">Reading Novel</label><br>
+            </p>
+            <p>
+                <span><label for="phone">Phone:</label></span>
+                <span><input type="text" name="phone" id="phone" value="004312345678912"></span>
+            </p>
+            <p>
+                <label for="address">Address:</label><br>
+                <textarea name="address" id="address" cols="50" rows="5" value="">Schützenstraße 30, 6323,Vienna, Austria</textarea>
+            </p>
+            <p>
+                <span><label for="email">Email:</label></span>
+                <span><input type="text" name="email" id="email" value="johndoe@example.com"></span>
+            </p>
+            <p>
+                <span><label for="password">Password:</label></span>
+                <span><input type="password" name="password" id="password" value="004312"></span>
+            </p>
+            <p>
+                <br>
+                <span><input type="button" value="Submit"></span>
+                <span><input type="button" value="Reset"></span>
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>
